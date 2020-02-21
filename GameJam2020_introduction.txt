@@ -1,0 +1,56 @@
+CGSG forever!!!                            	
+---------------
+sk4 & pd2 & av3
+---------------
+-->  Shooter  !!!!
+-->  Minecraft
+---------------
+206 & 207 for sleeping
+211 - slient area
+---------------
+Shower in basement for boys
+Kitchen is on the first floor
+---------------
+Doors are closed from 9pm to 9am
+Coffee, tea and drinks with snacks, microwawe, coffee maker are in the class X
+---------------
+Lukki(organizator) - +358400210889
+---------------
+Friday:
+16:00       - doors is opening
+17:00       - opening words
+17:45-18:15 - brainstorming
+18:15       - pitching and group forming
+19:30       - workshop(Game designed)
+20:00       - workshop(Gamemaker)
+20:30       - workshop(Coding)
+---------------
+Saturday:
+10:00 - workshop(Game art)
+15:00 - status update
+17:00 - workshop(Game music)
+---------------
+Sunday:
+10:00-10:15 - workshop(Game building)
+13:00-14:00 - game presentation
+---------------
+Speach:
+We are going to make a first player shooter in offline.
+In our game, there are two maps, three types of guns and two types of mobs.
+Also we will have hard levels...
+In a labirint there are a lot of enemies, which are trying to eat you, but you have a gun! Try kill them all or you die!
+---------------
+- Do you have oppnents?
+- No, it is game for one player.
+==
+- (About hard levels)?
+- If you pass one easy level you play one harder and again...
+---------------
+Global problems:
+--> Controls
+--> Shooting  !!!
+--> Enemies   !!!
+--> Music
+--> Maps
+--> UI        !!!
+---------------
