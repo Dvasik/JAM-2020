@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.AccessControl;
-using UnityEditor;
+﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+
 using UnityEngine.Networking.Match;
 
 public class Mob : MonoBehaviour
@@ -12,8 +10,11 @@ public class Mob : MonoBehaviour
     public float health = 10f;
     public Animator Anim;
     public float Speed = 4f;
+    public bool IsDeadInside = false;
 
     private Vector3 Move;
+    private int kills = 0;
+    
     // Update is called once per frame
 
     private void Start()
@@ -26,12 +27,20 @@ public class Mob : MonoBehaviour
     {
         health -= amount;
 
-        if (health <= 0f)
+        if (health <= 0f && IsDeadInside == false)
         {
+            IsDeadInside = true;
             Anim.SetBool("IsDead", false);
+            Gun.GunInstance.Kills++;
+            Gun.GunInstance.UpdateCounter();
             yield return new WaitForSeconds(5f); 
             Destroy(gameObject, 1f);
         }
+    }
+
+    public int GetKills()
+    {
+        return kills;
     }
     void Update()
     {
